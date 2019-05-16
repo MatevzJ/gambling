@@ -1,0 +1,94 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	}
+
+body{
+	background-color:rgb(0,54,95);
+}
+
+
+
+#glavni{
+	width:800px;
+	height:600px;
+	margin:50px auto;
+}
+
+#glava{
+	width:800px;
+	height:100px;
+	background-color:rgb(57, 170, 205);
+	border:5px solid white;
+	text-align:center;
+	line-height:100px;
+}
+
+.naslov{
+	font-family:CoffeeTinInitialsimport;
+	color:white;
+	font-size:80px;
+}
+
+#rezultati{
+	height:500px;
+	width:800px;
+	background-color:rgb(57, 170, 205);
+	border-left:5px solid white;
+	border-right:5px solid white;
+	border-bottom:5px solid white;
+}
+
+#drugi{
+	height:390px;
+	width:200px;
+	background-color:rgb(192,192,192);
+	margin-top:100px;
+	margin-left:50px;
+	float:left;
+	text-align:center;
+}
+
+#prvi{
+	height:440px;
+	width:200px;
+	background-color:rgb(212,175,55);
+	margin-top:50px;
+	margin-left:50px;
+	float:left;
+	text-align:center;
+}
+
+#tretji{
+	height:340px;
+	width:200px;
+	background-color:rgb(205, 127, 50);
+	margin-top:150px;
+	margin-left:50px;
+	float:left;
+	text-align:center;
+}
+
+@font-face{
+	font-family:CoffeeTinInitialsimport; src:url("../font/CoffeeTinInitials.ttf");
+}
+
+.ime{
+	font-family:CoffeeTinInitialsimport;
+	color:white;
+	font-size:30px;
+}
+
+.konec{
+	color:white;
+	font-size:60px;
+}
+
+.konec2{
+	color:white;
+	font-size:40px;
+	font-family:CoffeeTinInitialsimport;
+}
+
+
+

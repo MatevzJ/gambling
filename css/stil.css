@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:rgb(0,54,95);
+}
+
+#naslov{
+	width:500px;
+	height:100px;
+	margin:10px auto;
+}
+
+#miza{
+	width:600px;
+	height:398px;
+	background-image:url("../slike/miza.jpg");
+	background-repeat:no-repeat;
+	margin:0 auto;
+	text-align:center;
+}
+
+#prijava{
+	width:600px;
+	height:250px;
+	background-color:rgb(57, 170, 205);
+	margin:0 auto;
+}
+
+#igralec1{
+	width:150px;
+	height:200px;
+	background-color:rgba(0,54,95,0.8);
+	float:left;
+	margin-top:10px;
+	margin-left:35px;	
+}
+
+#igralec2{
+	width:150px;
+	height:200px;
+	background-color:rgba(0,54,95, 0.8);
+	float:left;
+	margin-left:35px;
+	margin-top:10px;
+}
+
+#igralec3{
+	width:150px;
+	height:200px;
+	background-color:rgba(0,54,95, 0.8);
+	float:left;
+	margin-top:10px;
+	margin-left:35px;
+}
+
+#naprej{
+	width:600px;
+	height:80px;
+	background-color:rgb(57, 170, 205);
+	margin:0 auto;
+}
+
+#gumbNaprej{
+	margin-left:250px;
+	line-height:50px;
+	margin-top:15px;
+}
+
+input[type=submit]{
+	width:100px;
+	height:50px;
+	background-color:rgba(0,54,95, 0.8);
+	color:white;
+}
+
+input[type=text]{
+	margin-top:20px;
+	margin-left:10px;
+	width:100px;
+	border: 2px solid white;
+	background-color:rgba(0,54,95, 0.8);
+	color:white;
+}
+
+#izbira{
+	height:20px;
+	width:520px;
+	background-color:rgba(0,54,95, 0.8);
+	float:right;
+	margin:5px 45px 0px 30px;
+}
+
+#select1{
+	margin-left:20px;
+}
+
+.text{
+	font-size:30px;
+	color:white;
+	margin-left:50px;
+	font-family:CoffeeTinInitialsimport;
+}
+
+.text1{
+	color:white;
+	margin:10px;
+	margin-left:20px;
+	font-family:CoffeeTinInitialsimport;
+}
+
+.text2{
+	color:white;
+	margin:10px;
+	margin-left:160px;
+	font-family:CoffeeTinInitialsimport;
+}
+
+.naslov{
+	font-size:50px;
+	line-height:100px;
+	text-align:center;
+	font-family:CoffeeTinInitialsimport;
+	color: white;
+}
+
+@font-face{
+	font-family:CoffeeTinInitialsimport; src:url("../font/CoffeeTinInitials.ttf");
+}
